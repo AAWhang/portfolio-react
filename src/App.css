@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #884488;
 }
 
 .App-logo {
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header {
+  background-color: #888844;
+}
+
+.Portfolio {
+  background-color: #448888;
+}
+
+.cell {
+  background-color: #CCCCCC;
+  border: 2px;
+  border-color: black;
+  margin-top: 3px;
+  padding: 20px;
 }
