@@ -39,17 +39,23 @@
 }
 
 .Header {
-  background-color: #888844;
+  background-color: #AAAA99;
 }
 
 .Portfolio {
-  background-color: #448888;
+  background-color: #AA9999;
 }
 
 .cell {
-  background-color: #CCCCCC;
-  border: 2px;
+  background-color: #DDCCCC;
+  border: 0px;
+  width: 400px;
   border-color: black;
   margin-top: 3px;
-  padding: 20px;
+  padding: 0px;
+}
+
+#thumbnail {
+  width: 150px;
+  height: 150px;
 }

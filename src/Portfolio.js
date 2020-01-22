@@ -17,19 +17,23 @@ function Portfolio() {
       container
       direction="row"
       justify="left"
-      alignItems="center"
+      alignItems="left"
     >
-    {port.map((x) => {
+    {port.map((x, y) => {
       return (
-        <Grid container item xs={3} spacing={0} justify="center">
+        <Grid container item xs={4} spacing={0} justify="center">
         <div class="cell">
-          <ul>
-            <li>{x.title} </li>
+          <Grid item xs={12} justify="left">
+            <h3>{x.title} </h3>
+            <hr />
+          </Grid>
+          <Grid item xs={12} justify="left">
+            <img id="thumbnail" src={x.img} />
+            <p> {x.desc} </p>
             <li>{x.link} </li>
-            <li> {x.img} </li>
-            <li> {x.desc} </li>
             <li>{x.demo} </li>
-          </ul>
+          </Grid>
+
         </div>
         </Grid>
       )
